@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.cabecalho-azul{
+    background-color: #3750B3;
+    width: 100vw;
+    height: 71px;
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-container {
+
+    display: flex;
+    
+}
+
+.avengers {
+
+    background-image: url("assets/imgs/avengers.jpg");
+    background-size: cover;
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+}
