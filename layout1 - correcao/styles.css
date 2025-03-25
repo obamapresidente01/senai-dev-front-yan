@@ -1,0 +1,38 @@
+* {
+
+    padding: 0px; /*zerei o padding */
+    margin: 0px; /*zerei o margin */
+    box-sizing: border-box; /* define o formato de espacamento */
+}
+
+.cabecalho {
+
+    width: 100vw; /* 100 da horizontal */
+    height: 71px;
+
+    display: flex; /* um ao lado do outro */
+
+    background-color: #3750B3;
+    justify-content: space-between; /*coloca os elementos nos cantos */
+    align-items: center;
+
+    /* padding-top: 300px: */
+
+}
+
+.cabecalho p {
+
+    color: white;
+    margin-right: 20px;
+}
+
+.left {
+
+    margin-left: 80px;
+}
+
+.right {
+
+    display: flex;
+    margin-right: 60px;
+}
