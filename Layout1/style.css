@@ -48,7 +48,7 @@ h1 {
     font-family: "Inter";
     margin-top: 80px;
     font-size: 54px;
-    margin-left: 210px;
+    margin-left: 15vw;
 
 }
 
@@ -56,16 +56,16 @@ h2 {
     font-family: "Inter";
     font-size: 22px;
     margin: 10px;
-    margin-left: 210px;
+    margin-left: 15vw;
 }
 
 .left {
-     margin-left: 200px;
-    font-size: 20px;
+     margin-left: 14vw;
+    font-size: 15px;
 }
 
 .right {
 
-    margin-right: 210px;
-    font-size: 20px;
+    margin-right: 14vw;
+    font-size: 15px;
 }

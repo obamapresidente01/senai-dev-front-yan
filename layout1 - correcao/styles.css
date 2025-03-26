@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
 
-    padding: 0px; /*zerei o padding */
-    margin: 0px; /*zerei o margin */
-    box-sizing: border-box; /* define o formato de espacamento */
+    padding: 0px;
+    /*zerei o padding */
+    margin: 0px;
+    /*zerei o margin */
+    box-sizing: border-box;
+    /* define o formato de espacamento */
+    font-family: "Inter";
 }
 
 .cabecalho {
 
-    width: 100vw; /* 100 da horizontal */
+    width: 100vw;
+    /* 100 da horizontal */
     height: 71px;
 
-    display: flex; /* um ao lado do outro */
+    display: flex;
+    /* um ao lado do outro */
 
     background-color: #3750B3;
-    justify-content: space-between; /*coloca os elementos nos cantos */
+    justify-content: space-between;
+    /*coloca os elementos nos cantos */
     align-items: center;
 
     /* padding-top: 300px: */
@@ -28,11 +37,48 @@
 
 .left {
 
-    margin-left: 80px;
+    margin-left: 10vw;
+
 }
 
 .right {
 
     display: flex;
-    margin-right: 60px;
+    margin-right: 10vw;
+}
+
+.caixa-da-image {
+
+    width: 100vw;
+    /* 100% da horizontal */
+    display: flex;
+    justify-content: center;
+    /*alinha horizontalmente */
+    margin-top: 100px;
+
+
+}
+
+.caixa-da-image img {
+
+    width: 80vw;
+}
+
+.textos {
+
+    margin-top: 100px;
+    margin-left: 10vw;
+
+}
+
+h1 {
+
+    font-size: 64px;
+    font-weight: normal;
+
+}
+
+.textos p {
+
+    font-size: 32px;
 }

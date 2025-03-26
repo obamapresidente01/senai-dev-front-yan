@@ -39,37 +39,9 @@ p {
 
 .avengers {
     background-image: url(assets/imgs/avengers.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 60vw;
-    height: 70vh;
-    margin-top: 20px;
-    display: flex;
-    margin: auto;
-    margin-left: 10vw;
-
-}
-
-.avengers2 {
-
-    background-image: url(assets/imgs/avengers.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 60vw;
-    height: 70vh;
-    margin-top: 20px;
-    display: flex;
-    margin: auto;
-    margin-right: 10vw;
-
-
 }
 
 .page-container {
-
     display: flex;
-    justify-content: center;
-    gap: 80px;
-    margin-top: 80px;
 
 }
