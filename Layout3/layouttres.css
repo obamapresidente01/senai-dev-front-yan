@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Inter";
 }
 
 .cabecalho-azul {
@@ -15,7 +16,7 @@
     font-size: 15px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 6vh;
 }
 
 .left {
@@ -25,7 +26,7 @@
 
 .right {
 
-    margin-right: 9vw;
+    margin-right: 7vw;
     font-size: 15px;
 }
 
@@ -39,9 +40,38 @@ p {
 
 .avengers {
     background-image: url(assets/imgs/avengers.jpg);
+    width: 140vw;
+    height: 750px;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    margin-left: 20vh;
 }
 
 .page-container {
     display: flex;
+    gap: 140px;
 
+}
+
+.textos {
+
+    margin: 0%;
+    
+}
+
+h1 {
+
+    font-size: 64px;
+    font-weight: normal;
+    margin-left: 15px;
+    
+}
+
+.page-container p {
+
+    font-size: 32px;
+    margin-right: 140px;
+    text-align: justify;
+    
 }
